@@ -1,5 +1,5 @@
 download_external_project(Eigen3
-  URL "https://github.com/eigenteam/eigen-git-mirror.git"
+  URL "https://gitlab.com/libeigen/eigen.git"
   TAG "${_Eigen3_version}"
   BACKEND GIT
   THIRD_PARTY_SRC_DIR ${_Eigen3_external_dir}
